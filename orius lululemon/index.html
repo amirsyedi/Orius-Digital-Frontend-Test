@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet/less" type="text/css" href="style.less">
+  <link rel="stylesheet" href="test.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/4.1.3/less.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+ 
+  <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="navi" id="navi">
+            <span class="bar"><i class="fa-solid fa-bars"></i></span>
+            <div class="brands"> 
+                <img class="logo" src="icon/Lululemon.png" alt=""> 
+                <ul>
+                    <li><a class="lululemon" href=""> lululemon </a></li>
+                    <li><a href="">women</a></li>
+                    <li><a href="">men</a></li>
+                    <li><a href="">accessories</a></li>
+                    <li><a href="">community</a></li>
+                </ul>
+            </div>
+            <div class="search-inside">
+                <input class="s-bar" type="text" placeholder="&#xF002; Search" />
+                <span ><img src="icon/user.png" alt=""></span>
+                <div class="link">
+                    <img class="mini-icon" src="icon/shopping-bag.png" alt="">
+                    <span class="mini-quantity">0</span>
+                </div>  
+            </div>
+            <span class="m-user"><img src="icon/user.png" alt=""></span>
+            <div class="link-outer">
+                <img class="mini-icon" src="icon/shopping-bag.png" alt="">
+                <span class="mini-quantity">0</span>
+            </div> 
+        </div>
+        <div class="promo">
+            <span>Shopping made seamless. Free shipping. Free returns. Shop 
+            <strong>New for Her</strong> and <strong>New for Him.</strong></span>
+
+            <div class="stripe">
+                <ul>
+                    <li>
+                        <a class="tracking" href="#">Track Order</a>
+                        <a class="tracking" href="#">Email Signup</a>
+                        <a class="tracking" href="#">Stores</a>
+                        <a href="#"><i class="fa fa-location-dot"></i>Malaysia(HKD) <i class="fa fa-chevron-down"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </header>
+    <div class="search">
+        <input class="s-bar" type="text" placeholder="&#xF002; Search" />
+    </div>
+    <div class="grid">
+        <div class="details">
+            <div class="breadcrumb">
+                <ul>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Tops</a></li>
+                    <li><a href="#">Long Sleeve Tops</a></li>
+                </ul>
+            </div>
+            <div class="product-name">
+                <h4>Relaxed-Fit Fleece Pullover</h4>
+                <span class="sub1">DESIGNED FOR THE MOVE</span> <br>
+                <div class="rating">
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <span>(0)<a href="#">Write a review</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow">
+            <div class="slideshow-container">
+                <div class="myslides ">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <img class="photo" src="img/LW3GV5S_032493_1.webp" alt="">
+                    <div class="text">Relaxed-Fit Fleece Pullover</div>
+                    <div class="zoom"><i class="fa fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="myslides ">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <img class="photo" src="img/LW3GV5S_032493_2.webp" alt="">
+                    <div class="text">Relaxed-Fit Fleece Pullover</div>
+                    <div class="zoom"><i class="fa fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="myslides ">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <img class="photo" src="img/LW3GV5S_032493_3.webp" alt="">
+                    <div class="text">Relaxed-Fit Fleece Pullover</div>
+                    <div class="zoom"><i class="fa fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="myslides ">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <img class="photo" src="img/LW3GV5S_032493_4.webp" alt="">
+                    <div class="text">Relaxed-Fit Fleece Pullover</div>
+                    <div class="zoom"><i class="fa fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="myslides ">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <img class="photo" src="img/LW3GV5S_032493_5.webp" alt="">
+                    <div class="text">Relaxed-Fit Fleece Pullover</div>
+                    <div class="zoom"><i class="fa fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="myslides ">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <img class="photo" src="img/LW3GV5S_032493_6.webp" alt="">
+                    <div class="text">Relaxed-Fit Fleece Pullover</div>
+                    <div class="zoom"><i class="fa fa-magnifying-glass-plus"></i></div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+
+        <div class="product-select">
+            <div class="color">
+                <span class="price">HKD 580.00</span>
+                <span class="desc">Colour: Heatered Core Ultra Light Grey</span>
+                <div class="colortype">
+                    <img class="inactive" src="img/color1.webp" alt="">
+                    <img class="active" src="img/color2.jpg" alt="">
+                    <img class="inactive" src="img/color3.webp" alt="">
+                </div>
+            </div>
+            <div class="size-guide">
+                <div class="text">
+                    <h4>Select US Size</h4>
+                    <a href="">Size Guide</a>
+                </div>
+                <div class="size">
+                    <div class="custom-radio">
+                        <input class="radio-d" type="radio" name="" id="0">
+                        <label class="label-d" for="0" disabled="disabled">0</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input class="radio-d" type="radio" name="" id="2">
+                        <label class="label-d" for="2" disabled="disabled">2</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input class="radio-d" type="radio" name="" id="4">
+                        <label class="label-d" for="4" disabled="disabled">4</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input class="radio-d" type="radio" name="" id="6">
+                        <label class="label-d" for="6" disabled="disabled">6</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input class="radio-d" type="radio" name="" id="8">
+                        <label class="label-d" for="8" disabled="disabled">8</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input class="radio-d" type="radio" name="" id="10">
+                        <label class="label-d" for="10" disabled="disabled">10</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input class="radio" type="radio" name="" id="12">
+                        <label class="label" for="12">12</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input class="radio" type="radio" name="" id="14">
+                        <label class="label" for="14">14</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input class="radio-d" type="radio" name="" id="16">
+                        <label class="label-d" for="16" disabled="disabled">16</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input class="radio-d" type="radio" name="" id="18">
+                        <label class="label-d" for="18" disabled="disabled">18</label>
+                    </div>
+                    <div class="custom-radio">
+                        <input class="radio-d" type="radio" name="" id="20">
+                        <label class="label-d" for="20" disabled="disabled">20</label>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="bag">
+                <div class="quantity">
+                    <select name="" id="">
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                        <option value="1">3</option>
+                    </select>
+                    <button>ADD TO BAG</button>
+                </div>
+                <div class="return">
+                    <a href="#">Free shipping and returns</a>
+                    <img src="icon/questionmark.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="why-we">
+        <div class="text-content">
+            <div class="title">
+                <p>Why we <br> made this</p>
+            </div>
+            <div class="subtitle">
+                <p>Ready to relax? We made these pants from soft fleece fabric so even busy days feel laid-back.</p>
+            </div>
+            <div class="tag">
+                <span>Designed for </span>
+                <span>On the Move</span>
+            </div>
+        </div>
+        <div class="image-content">
+            <span><img src="img/LW3GV5S_032493_2.webp" alt=""></span>
+            <span><img src="img/LW3GV5S_032493_4.webp" alt="" class="image2"></span>
+        </div>
+    </div>
+    <div class="accordion-container">
+        <button class="accordion">Product Features</button>
+        <div class="panel">
+            <ul>
+                <li>Thumbholes</li>
+                <li>A loose fit with a little extra room</li>
+                <li>Sits below the waistband for moderate, everyday coverage</li>
+            </ul>
+        </div>
+        <button class="accordion">Lightweight, Stretch Fleece Fabric</button>
+        <div class="panel">
+            <ul>
+                <li>Lightweight</li>
+                <li>Stretchy</li>
+                <li>Soft</li>
+            </ul>
+        </div>
+        <button class="accordion">Materials and care</button>
+        <div class="panel">
+            <h4>Materials</h4>
+            <ul>
+                <li>Body:93% Lenzing Modal, 7% Elastane,</li>
+            </ul>
+            <h4>Care</h4>
+            <ul>
+                <li>Machine Wash Cold</li>
+                <li>Do Not Bleach</li>
+                <li>Tumble Dry Low</li>
+                <li>Do Not Iron</li>
+                <li>Do Not Dry Clean</li>
+                <li>Wash With Like Colors</li>
+            </ul>
+        </div>
+    </div>
+    <div class="review">
+        <div class="code">
+            <span>SKU: prod11400018</span>
+        </div>
+        <div class="rating">
+            <div class="top-text">
+                <h2>Reviews</h2>
+                <span>Review this product</span>
+            </div>
+            <div class="star-rate">
+                <div class="star">
+                    <a href=""><i class="fa-sharp fa-regular fa-star"></i></a>
+                </div>
+                <div class="star">
+                    <a href=""><i class="fa-sharp fa-regular fa-star"></i></a>
+                </div>
+                <div class="star">
+                    <a href=""><i class="fa-sharp fa-regular fa-star"></i></a>
+                </div>
+                <div class="star">
+                    <a href=""><i class="fa-sharp fa-regular fa-star"></i></a>
+                </div>
+                <div class="star">
+                    <a href=""><i class="fa-sharp fa-regular fa-star"></i></a>
+                </div>
+            </div>
+            <div class="bottom-text">
+                <p>Adding a review will require a valid email for verification.</p>
+            </div>
+        </div>
+    </div>
+    <div class="signup">
+        <div class="title">
+            <p class="title">Our freshest gear. Straight to your inbox.</p>
+        </div>
+        <div class="sub-title">
+            <span class="subtitle">Be first to know about our newest products, limited-time offers, community events, and more.</span>
+        </div>
+        <div class="checkbox">
+            <ul>
+                <li>
+                    <input type="checkbox" id="cb1" name="cb1">
+                    <label for="cb1">Women's</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="cb2" name="cb2">
+                    <label for="cb1">Men's</label>
+                </li>
+            </ul>
+        </div>
+        <div class="custom-input">
+            <input class="form-control" type="text" placeholder="Enter your email address">
+            <button class="btn-contrl" >SIGN UP</button>
+        </div>
+        <div class="description">
+            <span class="privacy-copy-text">We respect your privacy and won't spam you. Unsubscribe at anytime. To learn more, see our <a class="link active" href="" data-toggle="modal" data-target="#privacyPolicyModal">privacy policy.</a></span>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer-col">
+            <a class="title" href="#">Contact Us</a>
+            <ul>
+                <li><a href="#">Guest Education Centre</a></li>
+                <li><strong>Monday - Friday</strong></li>
+                <li>Phone: 9am - 6pm HKT</li>
+                <li>Live Chat: 9am - 6pm HKT</li>
+                <li>Email: 9am - 6pm HKT</li>
+                <li><strong>Saturdays - Sundays & Hong Kong Public Holidays</strong></li>
+                <li>Phone: Closed</li>
+                <li>Live Chat: Closed</li>
+                <li>Email: Closed</li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <a class="title" href="#">Help</a>
+            <ul>
+                <li><a href="#">Track My Order</a></li>
+                <li><a href="#">Ordering & Payment</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Size Guide</a></li>
+                <li><a href="#">Our Products</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Refer A Friend</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <a class="title" href="#">About Us</a>
+            <ul>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Our Careers</a></li>
+                <li><a href="#">Team + Bulk Sales</a></li>
+                <li><a href="#">Sustainability</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Inclusion, Diversity, Equity & Action</a></li>
+                <li><a href="#">Social Impact</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <a class="title" href="#">Connect With Us</a>
+            <ul>
+                <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p "></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f "></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-accordion">
+        <button class="accordion">Contact Us</button>
+        <div class="panel">
+            <ul>
+                <li><a href="#">Guest Education Centre</a></li>
+                <li><strong>Monday - Friday</strong></li>
+                <li>Phone: 9am - 6pm HKT</li>
+                <li>Live Chat: 9am - 6pm HKT</li>
+                <li>Email: 9am - 6pm HKT</li>
+                <li><strong>Saturdays - Sundays & Hong Kong Public Holidays</strong></li>
+                <li>Phone: Closed</li>
+                <li>Live Chat: Closed</li>
+                <li>Email: Closed</li>
+            </ul>
+        </div>
+        <button class="accordion">Help</button>
+        <div class="panel">
+            <ul>
+                <li><a href="#">Track My Order</a></li>
+                <li><a href="#">Ordering & Payment</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Size Guide</a></li>
+                <li><a href="#">Our Products</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Refer A Friend</a></li>
+            </ul>
+        </div>
+        <button class="accordion">About Us</button>
+        <div class="panel">
+            <ul>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Our Careers</a></li>
+                <li><a href="#">Team + Bulk Sales</a></li>
+                <li><a href="#">Sustainability</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Inclusion, Diversity, Equity & Action</a></li>
+                <li><a href="#">Social Impact</a></li>
+            </ul>
+        </div>
+
+        <div class="social">
+            <a class="title" href="#">Connect With Us</a>
+            <ul>
+                <a href="#"><i class="fa-brands fa-twitter fa-m"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p fa-m "></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f "></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright-container">
+        <div class="copy">
+            <div class="postscript">
+                <span>Privacy Policy | Term and Conditions</span>
+            </div>
+            <div class="copyright">
+                <span>© lululemon HK Limited 22/F &amp; 27/F CITICORP CENTRE 18 WHITFIELD ROAD NORTH POINT HK</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
